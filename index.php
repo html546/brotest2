@@ -8,7 +8,13 @@
 
 
 /**
- * 用函数封装表格
+ * 自定义函数table()时，声明三个参数，参数之间使用逗号分隔
+ * @param $tableName
+ * 需要一个字符串类型的表名
+ * @param $rows
+ * 需要一个整型数值设置表格的行数
+ * @param $cols
+ * 需要另一个整型数值设置表格的列数
  */
 function table($tableName,$rows,$cols){
     echo "<table align='center' border='1' width='600'>";
