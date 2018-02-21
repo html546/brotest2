@@ -1,13 +1,9 @@
 <?php
 
-/**
- * 引用参数的函数
- * @param $arg
- */
-function test(&$arg){
-    $arg = 200;
+function person($name="张三",$age=20,$sex='男'){
+    echo "我的名字是:{$name},我的年龄为:{$age},性别{$sex}<br/>";
 }
-
-$var = 100;
-test($var);
-echo $var;
+person();
+person('李四');
+person('王五',22);
+person('赵六',18,'女');
