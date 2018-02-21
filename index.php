@@ -1,15 +1,13 @@
 <?php
 
-
 /**
- * @param $i
- * @param $j
- * @return float|int
+ * 引用参数的函数
+ * @param $arg
  */
-function test($i,$j){
-    $sum = 0;
-    $sum = $i * $j + $j * $i;
-    return $sum;
+function test(&$arg){
+    $arg = 200;
 }
 
-echo test(2,5);
+$var = 100;
+test($var);
+echo $var;
