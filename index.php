@@ -1,16 +1,23 @@
 <?php
-
 /**
- * 递归函数
- * @param $n
+ * 匿名函数
+ * @param $params
  */
-function test($n){
-    echo $n."&nbsp;&nbsp;";
-    if($n>0){
-        test($n-1);
-    }else{
-        echo "<-->";
-    }
-    echo $n."&nbsp;&nbsp;";
-}
-test(10);
+$fun = function($params){
+  echo $params;
+};
+
+$fun('www.ydma.com');
+
+
+/***
+ * 调用回调函数将匿名函数作为参数传入
+ * @param $callback
+ */
+function callback($callback){
+    $callback();
+};
+
+callback(function(){
+   echo "闭包函数测试";
+});
