@@ -50,10 +50,30 @@ $contact1[] = '(010)98765432';
 $contact1[] = 'gao@brophp.com';
 print_r($contact1);*/
 
-$contact[] = 1;
+/*$contact[] = 1;
 $contact[14] = '高某';
 $contact[] = 'A公司';
 $contact[] = '北京市';
 $contact[14] = '(010)98765432';
 $contact[] = 'gao@brophp.com';
-print_r($contact);
+print_r($contact);*/
+
+/*$contact = array(
+  1,
+  "高某",
+  "A公司",
+  '北京市',
+  '(010)98765432',
+  'gao@brophp.com'
+);
+print_r($contact);*/
+
+$contact1 = array(
+  1,
+  14=>"高某",
+  "A公司",
+  "北京市",
+  14=>"(010)98765432",
+  "gao@brophp.com"
+);
+print_r($contact1);
