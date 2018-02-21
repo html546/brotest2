@@ -1,10 +1,12 @@
 <?php
 
-function demo($one){
-    $two = 100;
-    return $one + $two;
+$one = 200;
+$two = 100;
+
+/**
+ * 不能在函数中直接使用全局变量
+ */
+function demo(){
+    echo "运行结果:".($one+$two)."<br/>";
 }
-
-$sum = demo(200);
-
-echo "在函数外部使用函数中的运算结果:$sum<br/>";
+demo();
