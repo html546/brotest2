@@ -1,13 +1,21 @@
 <?php
 
 /**
- * 可变个数的参数
+ * 变量函数
+ * @param $a
+ * @param $b
+ * @return mixed
  */
-function more_args(){
-    $args = func_get_args();
-    for ($i = 0;$i<count($args);$i++){
-//        echo "第".($i+1)."个参数是".$args[$i]."<br/>";
-        echo "第".($i+1)."个参数是".func_get_arg($i)."<br/>";
-    }
+function one($a,$b){
+    return $a+$b;
 }
-more_args('one','two','three',1,2,3);
+function two($a,$b){
+    return $a * $b + $b * $a;
+}
+function three($a,$b){
+    return $a*$a*$a + $b*$b*$b;
+}
+//$result = "one";
+//$result = "two";
+$result = "three";
+echo "运算结果是:".$result(2,3);
