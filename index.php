@@ -1,21 +1,24 @@
 <?php
 
-/**
- * 变量函数
- * @param $a
- * @param $b
- * @return mixed
- */
-function one($a,$b){
-    return $a+$b;
+function filter($fun){
+    for ($i = 0;$i<=100;$i++){
+        if($fun($i)){
+            continue;
+        }
+        echo $i."<br/>";
+    }
 }
-function two($a,$b){
-    return $a * $b + $b * $a;
+
+function one($sum){
+    return $sum % 3 === 0;
 }
-function three($a,$b){
-    return $a*$a*$a + $b*$b*$b;
+
+function two($sum){
+    return $sum == strrev($sum);
 }
-//$result = "one";
-//$result = "two";
-$result = "three";
-echo "运算结果是:".$result(2,3);
+
+filter('one');
+
+echo '-------------------------<br/>';
+
+filter('two');
