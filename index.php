@@ -1,10 +1,15 @@
 <?php
 
-function test(){
-    static $a = 0;
-    echo $a;
-    $a++;
+
+/**
+ * @param $i
+ * @param $j
+ * @return float|int
+ */
+function test($i,$j){
+    $sum = 0;
+    $sum = $i * $j + $j * $i;
+    return $sum;
 }
-test();
-test();
-test();
+
+echo test(2,5);
