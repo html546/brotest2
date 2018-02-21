@@ -1,30 +1,16 @@
 <?php
 
-
 /**
- * Class Demo
+ * 递归函数
+ * @param $n
  */
-class Demo{
-    static function fun($msg1,$msg2){
-        echo "\$msg1 = ".$msg1;
-        echo "<br/>";
-        echo "\$msg2 = ".$msg2;
+function test($n){
+    echo $n."&nbsp;&nbsp;";
+    if($n>0){
+        test($n-1);
+    }else{
+        echo "<-->";
     }
+    echo $n."&nbsp;&nbsp;";
 }
-
-
-/**
- * Class Test
- */
-
-class Test{
-    function fun($msg1,$msg2){
-        echo "\$msg1 = ".$msg1;
-        echo "<br/>";
-        echo "\$msg2 = ".$msg2;
-    }
-}
-
-call_user_func_array(array('Demo','fun'),array('LAMP','兄弟连'));
-
-call_user_func_array(array(new Test(),'fun'),array('Brophp','学习型php框架'));
+test(10);
