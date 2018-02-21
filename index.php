@@ -1,9 +1,13 @@
 <?php
 
-function person($name="张三",$age=20,$sex='男'){
-    echo "我的名字是:{$name},我的年龄为:{$age},性别{$sex}<br/>";
+/**
+ * 可变个数的参数
+ */
+function more_args(){
+    $args = func_get_args();
+    for ($i = 0;$i<count($args);$i++){
+//        echo "第".($i+1)."个参数是".$args[$i]."<br/>";
+        echo "第".($i+1)."个参数是".func_get_arg($i)."<br/>";
+    }
 }
-person();
-person('李四');
-person('王五',22);
-person('赵六',18,'女');
+more_args('one','two','three',1,2,3);
