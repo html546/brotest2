@@ -1,14 +1,19 @@
 <?php
 
-$contact = array('ID'=>1,"姓名"=>"高某","公司"=>"A公司","地址"=>"北京市");
+$info = array('coffee','brown','caffeine');
 
-$id = each($contact);
-print_r($id);
-$name = each($contact);
-print_r($name);
-$company = each($contact);
-print_r($company);
-$address = each($contact);
-print_r($address);
-$no = each($contact);
-var_dump($no);
+list($drink,$color,$power) = $info;
+
+echo "$drink is $color and $power makes it special.\n";
+
+list($drink,,$power) = $info;
+
+echo "$drink has $power.\n";
+
+list(,,$power) = $info;
+
+echo "I need $power.\n";
+
+
+
+
