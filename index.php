@@ -9,8 +9,14 @@ $contact = array(
     "EMAIL"=>"gao@brophp.com"
 );
 
-echo "<dl>一个联系人信息:";
-while (list($key,$value)=each($contact)){
-    echo "<dd>$key:$value</dd>";
-}
-echo "</dl>";
+echo "第一个元素:".key($contact)."=>".current($contact)."<br/>";
+echo "第一个元素:".key($contact)."=>".current($contact)."<br/>";
+next($contact);
+next($contact);
+echo "第三个元素:".key($contact)."=>".current($contact)."<br/>";
+end($contact);
+echo "最后一个元素:".key($contact)."=>".current($contact)."<br/>";
+prev($contact);
+echo "最后第二个元素:".key($contact)."=>".current($contact)."<br/>";
+reset($contact);
+echo "又回到了第一个元素:".key($contact)."=>".current($contact)."<br/>";
