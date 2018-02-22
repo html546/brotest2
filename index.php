@@ -1,35 +1,14 @@
 <?php
 
-$wage = array(
-    "市场部"=>array(
-        array(1,"高某","市场部经理",5000.00),
-        array(2,"洛某","职员",3000.00),
-        array(3,"峰某","职员",3000.00)
-    ),
-    "产品部"=>array(
-        array(1,"李某","产品部经理",6000.00),
-        array(2,"周某","职员",4000.00),
-        array(3,"吴某","职员",3200.00)
-    ),
-    "财务部"=>array(
-        array(1,"郑某","财务部经理",4500.00),
-        array(2,"王某","职员",2000.00),
-        array(3,"冯某","职员",1500.00)
-    )
-);
+$contact = array('ID'=>1,"姓名"=>"高某","公司"=>"A公司","地址"=>"北京市");
 
-foreach ($wage as $selector=>$table){
-    echo "<table border='1' width='600' align='center'>";
-    echo "<caption><h1>".$selector."10月份工资表</h1></caption>";
-    echo "<tr bgcolor='#ddd'><th>编号</th><th>姓名</th><th>职务</th><th>工资</th></tr>";
-        foreach ($table as $row){
-            echo "<tr>";
-                foreach ($row as $col){
-                    echo "<td>".$col."</td>";
-                }
-            echo "</tr>";
-        }
-
-
-    echo "</table>";
-}
+$id = each($contact);
+print_r($id);
+$name = each($contact);
+print_r($name);
+$company = each($contact);
+print_r($company);
+$address = each($contact);
+print_r($address);
+$no = each($contact);
+var_dump($no);
