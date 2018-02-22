@@ -17,12 +17,9 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-              <folding>
-                <marker date="1519305951813" expanded="true" signature="148:167" ph="..." />
-                <marker date="1519305951813" expanded="true" signature="414:428" ph="..." />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,12 +114,12 @@
       <workItem from="1519002156434" duration="4683000" />
       <workItem from="1519097332084" duration="688000" />
       <workItem from="1519173042016" duration="19734000" />
-      <workItem from="1519257980834" duration="6037000" />
+      <workItem from="1519257980834" duration="6351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31737000" />
+    <option name="totallyTimeSpent" value="32051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -168,10 +165,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519305951813" expanded="true" signature="148:167" ph="..." />
-            <marker date="1519305951813" expanded="true" signature="414:428" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -187,10 +181,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519305951813" expanded="true" signature="148:167" ph="..." />
-            <marker date="1519305951813" expanded="true" signature="414:428" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -198,10 +189,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519305951813" expanded="true" signature="148:167" ph="..." />
-            <marker date="1519305951813" expanded="true" signature="414:428" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -209,10 +197,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1519305951813" expanded="true" signature="148:167" ph="..." />
-            <marker date="1519305951813" expanded="true" signature="414:428" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -259,12 +244,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <marker date="1519305951813" expanded="true" signature="148:167" ph="..." />
-            <marker date="1519305951813" expanded="true" signature="414:428" ph="..." />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
