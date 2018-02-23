@@ -1,12 +1,7 @@
 <?php
 
-$lamp = array("Linux","Apache","MySQL","PHP");
-echo count($lamp);
+$array = array(1,"php",1,"mysql","php");
 
-$web = array(
-  "lamp"=>array("Linux","Apache","MySQL","PHP"),
-  "j2ee"=>array("Unix","Tomcat","Oracle","JSP")
-);
+$newarray = array_count_values($array);
 
-echo count($web,1);
-echo count($web);
+print_r($newarray);
