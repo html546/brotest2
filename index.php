@@ -1,4 +1,12 @@
 <?php
 
-$lamp = array("os"=>"Linux","WebServer"=>"Apache","Database"=>"MySQL","Language"=>"PHP");
-print_r(array_reverse($lamp));
+$lamp = array("Linux","Apache","MySQL","PHP");
+echo count($lamp);
+
+$web = array(
+  "lamp"=>array("Linux","Apache","MySQL","PHP"),
+  "j2ee"=>array("Unix","Tomcat","Oracle","JSP")
+);
+
+echo count($web,1);
+echo count($web);
