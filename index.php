@@ -1,7 +1,5 @@
 <?php
 
-$array = array(1,"php",1,"mysql","php");
+$a = array("a"=>"php","b"=>"mysql","c"=>"php");
 
-$newarray = array_count_values($array);
-
-print_r($newarray);
+print_r(array_unique($a));
